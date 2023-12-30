@@ -1,0 +1,33 @@
+.display {
+    width: 300px;
+    height: 120px;
+    background-color: aqua;
+}
+
+.function-buttons-section {
+    width: 300px;
+    height: 70px;
+    background-color:beige;
+    display: flex;
+}
+
+.function-buttons-section button{
+    flex:1;
+    margin: 10px;
+    border: solid black;
+}
+
+.operand-and-operator {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: solid black;
+}
