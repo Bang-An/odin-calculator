@@ -1,33 +1,71 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .display {
     width: 300px;
     height: 120px;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.result {
+    font-size: 50px;
+}
+
+.input {
+    font-size: 30px;
 }
 
 .function-buttons-section {
     width: 300px;
     height: 70px;
-    background-color:beige;
     display: flex;
+    margin: 10px;
 }
 
 .function-buttons-section button{
     flex:1;
     margin: 10px;
     border: solid black;
+    border-radius: 5px;
 }
 
+.clearButton {
+    background-color: grey;
+}
+
+.delButton {
+    background-color: grey;
+}
 .operand-and-operator {
-    background-color: red;
     width: 300px;
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
-.button{
+.operand-and-operator button{
     width: 50px;
     height: 50px;
     margin: 10px;
     border: solid black;
+    border-radius: 5px;
+}
+
+.calculator {
+    background-color: rgb(190, 186, 186);
+    border: solid black;
+    border-radius: 5px;
 }
